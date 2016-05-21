@@ -1,0 +1,56 @@
+# Site Info
+title:              "andrs.name"
+description:        "Blog about stuff and life with some pictures. Occasionally."
+
+# Author Info
+author_name:        "David Andrs"
+author_email:       andrsd@gmail.com
+author_gravatar:    09f4069b6d32efee14765132899f848a # Gravatar md5 hash
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          date # Post permalink
+timezone:           US/Mountain # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+google_verify:      tMVFkptY4Hv89ST5qn-vWeHEeLO_EU4R9GFWlkfVkCs
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+paginate: 5
+
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+
+scholar:
+  style: chicago-note-bibliography
