@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MiG-21MF (5512) Czech Air Force
+title: MiG-21MF 5512 Czech Air Force
 Date: 2018-03-26 14:17 -0700
 tags: "scale model", "mig", 
 ---
