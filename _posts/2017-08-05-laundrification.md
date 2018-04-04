@@ -2,6 +2,7 @@
 layout: post
 title: Laundrification
 Date: 2017-08-05 15:00 -0700
+comments: true
 tags: "DIY"
 ---
 
